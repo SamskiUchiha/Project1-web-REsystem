@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AppTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-05-11T19:11:58" hostname="sams-MacBook-Pro.local" time="1.396">
+  <properties/>
+  <testcase name="testMain" classname="AppTest" time="1.392"/>
+  <testcase name="testRunApp" classname="AppTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[cluster-ClusterId{value='609ad6fe24a8574556cb5189', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:978}] to localhost:27017
+[cluster-ClusterId{value='609ad6fe24a8574556cb5189', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 4]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7070800}
+[Test worker] INFO org.eclipse.jetty.util.log - Logging initialized @1613ms to org.eclipse.jetty.util.log.Slf4jLog
+[Test worker] INFO io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "/public", location: Location.CLASSPATH}
+    Resolved path: 'file:///Users/samlaitha/Desktop/Revature%20Pro/Workspace/0412_javapp_august/Sam_Laitha_Code/Project1/build/resources/main/public/'
+[Test worker] INFO io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+[Test worker] INFO io.javalin.Javalin - Starting Javalin ...
+[Test worker] INFO io.javalin.Javalin - Listening on http://localhost:7000/
+[Test worker] INFO io.javalin.Javalin - Javalin started in 504ms \o/
+[Test worker] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+]]></system-err>
+</testsuite>
